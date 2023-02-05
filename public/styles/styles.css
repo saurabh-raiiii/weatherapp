@@ -1,0 +1,57 @@
+body {
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.background-blur{
+    backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.btn-orange {
+    background-color:  #ff5f3f;
+    border-radius: 0% 5px 5px 0%;
+}
+
+.btn-orange:hover{
+    background-color:  #E6583B;
+}
+
+.input-border {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    letter-spacing: .07rem;
+}
+
+input:focus{
+    border-color: #E6583B;
+    color: black;
+}
+
+
+.server-action-menu {
+    background-color: transparent;
+    background-image: linear-gradient(to bottom, rgba(30, 87, 153, 0.2) 0%, rgba(125, 185, 232, 0) 100%);
+    background-repeat: repeat;
+    border-radius: 10px;
+}
+
+.info-panel {
+    padding: 4px;
+}
+
+.border {
+    background-color: none;
+}
+
+.col-container {
+    display: table;
+    width: 100%;
+}
+
+.col {
+    display: table-cell;
+    padding: 16px;
+}
